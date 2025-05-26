@@ -1,0 +1,57 @@
+/* Reset default browser spacing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: 'Segoe UI', Georgia, 'Times New Roman', Times, sans-serif;
+    background: linear-gradient(to right, #e0eafc, #cfdef3 ); /*soft gradient bg*/
+    color: #000000;
+    padding: 2rem;
+    line-height: 1.6;
+}
+
+/* Header styles */
+header {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+header h1 {
+    font-size: 3rem;
+    color: #222;
+}
+header p {
+    font-size: 1.1rem;
+    max-width: 600px;
+    margin: 0.5rem auto 0 auto;
+  }
+  
+  /* Log section */
+  .log {
+    max-width: 600px;
+    margin: auto;
+    background-color: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .log h2 {
+    margin-bottom: 1rem;
+    color: #2c3e50;
+  }
+  
+  .log ul {
+    list-style-type: none;
+  }
+  
+  .log li {
+    margin-bottom: 1.5rem; /* space between logs */
+    padding-left: 1rem;
+    border-left: 3px solid #5dade2;
+    font-size: 1.1rem; /* slightly larger text */
+  }
